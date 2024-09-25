@@ -19,4 +19,111 @@
       ->  The main difference between C and C++ is that C++ support classes and objects, while C does not
 
 
+   //  #include <stdio.h>   
+      -> pre processer directer
+
+  //  VERIABLE 
+
+     int   -     save numberic value
+     float -     save float vlaue like(3.23)
+     char  -     save charecter value
+
+  
+    //  OutPut 
+       printf("");
+       printf("\n");  -new line
+
+       1. integer 
+         int num =15
+         printf("%d",num);
+
+       2.float (real value) 
+         float pi = 9.34
+         printf("%f",pi)
+
+       3.Charecters
+         char world = "hello"
+         printf("%c",wrold)  
+
+
+
+      // Input
+
+      scanf("%d",$n);   
+
+
+
+     // Operators
+
+       1.Arithmetic Operator 
+          + 
+          *
+          -
+          /
+          %
+
+       2. Relational Operator
+          ==
+          >,>=
+          <,<=
+          !=
+
+       3. Logical Operator
+          &&   AND
+          ||   OR
+          !    NOT
+         
+       4. Bitwise Operator 
+          =
+          +=
+          -=
+          *=
+          /=
+          %=
+
+       5. Assignment Operator 
+
+      
+       Bytes Use
+
+        -> int   - 2 byte
+        -> float - 4 byte
+        -> char  - 1 byte
+
+
+    //  Control Instruction 
+        1. Sequence Control 
+        2. Decision Control 
+        3. Loop Control
+        4. Case Control
+
+
+    //  Condition Statment 
+
+       If()else 
+       Switch Case
+       Ternary Operator ?:
+
+
+
+
+    //  Loop Statment 
+
+       for()
+       while()      - check condition before exicute
+       do{} while() - check condition after exicute
+
+
+
+
+      //   Break Continue
+
+       1. break 
+        The break statement can also be used to jump out of a loop.
+        when work was complated break stop the loop or work
+
+       2. Continue 
+         The continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.
+        
   */   
+
