@@ -184,24 +184,186 @@
 //   }
 // }
 
+//   Factorial Number
 
-    //   Factorial Number
+//   #include <stdio.h>
 
-    //   #include <stdio.h>
+//   int main ()
+//   {
+//     int n,f=1;
+//     printf("Enter Number");
+//     scanf("%d",&n);
+//     for(int i=1;i<=n;i++)
+//     {
+//       f*=i;
+//       printf("%d\t %d\n",i,f);
+//     }
 
-    //   int main () 
-    //   {
-    //     int n,f=1;
-    //     printf("Enter Number");
-    //     scanf("%d",&n);
-    //     for(int i=1;i<=n;i++)
-    //     {
-    //       f*=i;
-    //       printf("%d\t %d\n",i,f);
-    //     }
-        
-        
-    //   }
+//   }
+
+//   Function
+
+//  #include <stdio.h>
+
+// void PrintHello() {
+//     printf("hello world");
+//  }
+
+//  int main() {
+//    PrintHello();
+//  }
+
+//   #include <stdio.h>
+
+//  void hello() {
+//     printf("hello how have been you");
+//  }
+//  void Namste() {
+//     printf("namaste jay hind");
+//  }
+
+//  int main () {
+
+//   char n;
+//   printf("Enter i for Indian \nEnter a for american\n");
+//   scanf("%c",&n);
+
+//   if(n == 'a') {
+//     hello();
+//   }else if(n == 'i')
+//   {
+//     Namste();
+//   } else {
+//     printf("Enter Valid Number");
+//   }
+
+// Recursion
+
+//     #include <stdio.h>
+
+//    int n=1;
+//       void PrintHW(int count ) {
+
+//           if(count == 0) {
+//               return;
+//           }
+//         printf("%d Hello world\n",n);
+//         n++;
+//         PrintHW(count-1);
+//       }
+
+//       int main (){
+
+//         PrintHW(10);
+
+//       }
+
+//    Factorial In recursion
+
+// #include <stdio.h>
+
+//   int fact(int n) {
+
+//       if(n == 0) {
+//           return 1;
+//       }
+
+//     int nm1 = fact(n-1);
+//     int nm = nm1 * n;
+//     return nm;
+//   }
+
+//   int main (){
+//     int nu;
+//     scanf("%d",&nu);
+//     printf("%d",fact(nu));
+
+//   }
+
+//  BC - BASE CASE
+
+//  Febonacci Series
+
+//   by function
+
+// #include <stdio.h>
+
+// int Feb(int f)
+// {
+//     if (f == 0)
+//     {
+//         return 0;
+//     }
+//     if (f == 1)
+//     {
+//         return 1;
+//     }
+
+//     int feb1 = Feb(f - 1);
+//     int feb2 = Feb(f - 2);
+//     int feb = feb1 + feb2;
+//     return feb;
+// }
+
+// int main()
+// {
+
+//     int n;
+//     printf("Enter Number");
+//     scanf("%d", &n);
+//     printf("%d", Feb(n));
+//     return 0;
+// }
 
 
-//
+// #include <stdio.h>
+
+// int main() {
+//     int n, a = 0, b = 1, next;
+
+//     // Ask the user for the number of terms
+//     printf("Enter the number of terms: ");
+//     scanf("%d", &n);
+
+//     printf("Fibonacci Series: ");
+
+//     for (int i = 1; i <= n; i++) {
+//         printf("%d ", a);  
+//         next = a + b;      
+//         a = b;             
+//         b = next;          
+//     }
+
+//     return 0;
+// }
+
+//  Pointer 
+
+// #include <stdio.h>
+
+//   int main () {
+      
+//     int age = 18;
+//     int *p = &age ;
+//     int ge = *p;
+
+//     printf("%d",ge);
+    
+//   }
+
+//    value of pointer
+
+    //  #include <stdio.h>
+
+    //  int main () {
+    //     int age = 24;
+    //     int *ptr = &age;
+    //     int **pttr = *ptr;
+
+    // printf("%d",*ptr);
+    //  }
+
+
+
+
+

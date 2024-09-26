@@ -46,7 +46,6 @@
          printf("%c",wrold)  
 
 
-
       // Input
 
       scanf("%d",$n);   
@@ -105,15 +104,11 @@
        Ternary Operator ?:
 
 
-
-
     //  Loop Statment 
 
        for()
        while()      - check condition before exicute
        do{} while() - check condition after exicute
-
-
 
 
       //   Break Continue
@@ -125,7 +120,62 @@
        2. Continue 
          The continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.
 
-       
-        
-  */   
+
+
+      //   Function And recursion
+
+
+         //  Function
+
+          Prototype : void function_name();
+
+          Defination : void PrintHello() { printf("hello"); }
+
+          Call : PrintHello();
+
+     
+         // Argument Function
+
+          void helloSum(int a, int b)
+          {
+              reutrn a+b;
+           }
+
+         //   Argument 
+            -> when function call pass Argument 
+            -> used to send value
+            -> Actual Parameter
+
+
+            // Parameter 
+              -> value in function declaration and defination
+              -> used to recive value
+              ->  Formal parameter
+
+ 
+            #inlcude <math.h>
+             
+            //   pow(2,2);
+
+            //   Recursion 
+               -> When function calls itself , oits called a recursion
+              
+               -> BaseCase 
+               its important for recursion beacuse its stop the loop when work was clear.
+
+
+
+            // Pointers 
+
+            *ptr
+            -> a veriable that stores the memory of address of another veriable  
+  
+            **pptr
+            -> a veriable that stores the memory of address of another pointer
+             
+          
+             Call by value
+             Call by Referece 
+           
+            */   
 
