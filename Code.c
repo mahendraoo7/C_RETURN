@@ -131,13 +131,12 @@
 //   } while (j <= 10);
 // }
 
-
-  // sum and also print reverse
+// sum and also print reverse
 
 //    #include <stdio.h>
 //  int main()
 //  {
-     
+
 //    int sum=0,i=1,n;
 //    scanf("%d",&n);
 //    for(i=n;i>=1;i--)
@@ -145,13 +144,64 @@
 //        sum +=i;
 //        printf("%d\n",i);
 //    }
-   
+
 //    printf("Sum is %d",sum);
 //  }
- 
-    
 
-  //  
+// Continue    -using for skip the line of loop
+
+// #include <stdio.h>
+
+// int main () {
+//   int y;
+//   int i=0;
+
+//   for(y=0;y<=10;y++)
+//   {
+//      if(y==8){
+//       continue;
+//      }
+//      printf("%d",y);
+//   }
+// }
+
+// Break;
+
+// #include <stdio.h>
+
+// int main()
+// {
+//   int y;
+//   int i = 0;
+
+//   for (y = 0; y <= 10; y++)
+//   {
+//     if (y == 8)
+//     {
+//       break;
+//     }
+//     printf("%d", y);
+//   }
+// }
 
 
-   
+    //   Factorial Number
+
+    //   #include <stdio.h>
+
+    //   int main () 
+    //   {
+    //     int n,f=1;
+    //     printf("Enter Number");
+    //     scanf("%d",&n);
+    //     for(int i=1;i<=n;i++)
+    //     {
+    //       f*=i;
+    //       printf("%d\t %d\n",i,f);
+    //     }
+        
+        
+    //   }
+
+
+//
