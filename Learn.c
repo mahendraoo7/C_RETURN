@@ -73,15 +73,21 @@
           !    NOT
          
        4. Bitwise Operator 
-          =
+
+         &   AND
+         |   OR
+         ^   XOR
+         >>  RIGHT SWIFT
+         <<  LEFT SWIFT
+         
+
+       5. Assignment Operator 
+           =
           +=
           -=
           *=
           /=
           %=
-
-       5. Assignment Operator 
-
       
        Bytes Use
 
@@ -176,6 +182,94 @@
           
              Call by value
              Call by Referece 
+
+
            
+         //   Array 
+            -> Collection Of elements
+            Declaration - 
+              int arr[] = {1,2,3,4,5};
+
+              2D array 
+              int array[][] = {{1,2},{3,4}}  
+
+
+            //  String 
+
+              // String Function 
+               #include <string.h>
+
+               // String Length
+               char alphabet[] = "ABCDFEREHGEEJEFBh" 
+                printf(strlen(alphabet));
+
+                sizeof(alphabet);
+
+
+                concatenate String
+                -> combianing two string 
+                -> you can use the strcat()
+
+                char d[] = "hello";
+                char h[] = "world" ;
+
+                strcat(d,h); -> h value save in d
+
+
+               //  copy String 
+
+                 char c[] = "hello world";
+                 char p[23];
+
+                 strcpy(c,p)  copy c to p 
+
+                 print str 
+
+
+               //   Comapre String 
+
+                char str[] = "hello";
+                char st2[] = "hello";
+                char st3[] = "hello";
+
+                Compare str1 and str2
+                strcmp(str, st2); retrun 0 (the string value are equal);
+
+
+
+
+               // Struct 
+               - a collection of values of diffrent data types
+
+            //   FILE I/O
+
+               FILE *fptr
+               
+               open file
+               fptr = fopen("filename",mode);
+
+               MODE
+               r - read
+               w - write
+
+
+               closing file
+               fclose(fptr); 
+
+               EOF -end of file
+
+
+
+               // Dynamic Memory Allocation
+
+               // Malloc 
+                -> take Number of bytes to be allocated &a return pointer of the type void
+
+
+              //  CALLOC
+              -> Continue allocation  
+
+           
+
             */   
 
